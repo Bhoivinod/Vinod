@@ -1,44 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Vinod Portfolio</title>
-<img src="Bhoivinod.jpg" width="120" style="border-radius:50%;">
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vinodkumar G Bhoi | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-  <h1>Vinodkumar G Bhoi</h1>
-  <p>Full Stack Developer | WordPress | Data Analyst</p>
-  <p>Email: bhoivinod07@gmail.com | Phone: +1 603-698-5185</p>
-</header>
+<!-- NAVBAR -->
+<nav class="navbar">
+  <h2>Vinod</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
 
-<section class="about">
+<!-- HERO -->
+<section class="hero">
+  <img src="Bhoivinod.jpeg" class="profile">
+
+  <h1>Vinodkumar G Bhoi</h1>
+  <h3 class="typing">Full Stack Developer | WordPress | Data Analyst</h3>
+
+  <p>Manchester, NH, USA</p>
+  <p>bhoivinod07@gmail.com | +1 (603) 698-5185</p>
+
+  <div class="btns">
+    <a href="Vinod_Resume.pdf" download class="btn">⬇ Download Resume</a>
+    <a href="#" class="btn-outline">GitHub</a>
+    <a href="https://www.linkedin.com/in/vinod-bhoi-1a49b4150/" class="btn-outline">LinkedIn</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section reveal">
   <h2>About Me</h2>
   <p>
-    I am a Computer Information Science graduate with experience in WordPress,
-    PHP, React.js, and database systems.
+    Results-driven Master of Computer Information Science graduate with expertise in
+    full-stack development, WordPress, React.js, PHP, and database systems.
   </p>
 </section>
 
-<section class="skills">
+<!-- SKILLS -->
+<section id="skills" class="section reveal">
   <h2>Skills</h2>
-  <p>HTML, CSS, JavaScript, PHP, WordPress, React.js, MySQL, MongoDB</p>
+  <div class="tags">
+    <span>React.js</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+    <span>PHP</span>
+    <span>WordPress</span>
+    <span>MySQL</span>
+    <span>MongoDB</span>
+  </div>
 </section>
 
-<section class="projects">
+<!-- EXPERIENCE -->
+<section id="experience" class="section reveal">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Full Stack Developer</h3>
+    <p>Coderian Technology (2021–2023)</p>
+    <p>Built full-stack applications using PHP, WordPress, MySQL and improved performance by 25%.</p>
+  </div>
+
+  <div class="card">
+    <h3>Computer Operator</h3>
+    <p>Karibu Pharmaceutical</p>
+    <p>Managed enterprise data systems and improved reporting efficiency.</p>
+  </div>
+
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section reveal">
   <h2>Projects</h2>
-  <ul>
-    <li>Online Exam System</li>
-    <li>Sound System App</li>
-    <li>Bakeland Website</li>
-  </ul>
+
+  <div class="grid">
+
+    <div class="project">
+      <h3>Online Exam System</h3>
+      <p>PHP + MySQL + Authentication</p>
+    </div>
+
+    <div class="project">
+      <h3>Sound System App</h3>
+      <p>Booking system with backend integration</p>
+    </div>
+
+    <div class="project">
+      <h3>Bakeland Website</h3>
+      <p>WordPress responsive website</p>
+    </div>
+
+  </div>
 </section>
 
+<!-- CONTACT -->
+<section id="contact" class="section reveal">
+  <h2>Contact</h2>
+  <p>Email: bhoivinod07@gmail.com</p>
+  <p>Phone: +1 603 698 5185</p>
+</section>
+
+<!-- FOOTER -->
 <footer>
-  <p>© 2026 Vinod Portfolio</p>
+  <p>© 2026 Vinodkumar G Bhoi | All Rights Reserved</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
